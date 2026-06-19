@@ -58,7 +58,7 @@
   }
 
   .nav-links {
-    display:flex; gap:2rem; list-style:none;
+    display:flex; gap:1.4rem; list-style:none; align-items:center;
   }
   .nav-links a {
     color: rgba(255,255,255,0.8);
@@ -81,11 +81,12 @@
   .nav-cta {
     background: var(--gold);
     color: var(--forest) !important;
-    padding: 8px 20px;
+    padding: 8px 16px;
     border-radius: 2px;
     font-weight:700 !important;
-    font-size:0.75rem !important;
-    letter-spacing:.1em !important;
+    font-size:0.72rem !important;
+    letter-spacing:.06em !important;
+    white-space: nowrap !important;
   }
   .nav-cta::after { display:none !important; }
   .nav-cta:hover { background: var(--gold-light) !important; }
