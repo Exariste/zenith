@@ -667,15 +667,19 @@
   .form-submit:hover { background:var(--gold-light); transform:translateY(-1px); }
 
   .map-placeholder {
-    margin-top:32px; height:220px;
+    margin-top:32px; height:100px;
     background:rgba(255,255,255,0.06);
     border:1px solid rgba(212,175,55,0.2);
     border-radius:4px;
     display:flex; flex-direction:column; align-items:center; justify-content:center;
-    gap:10px; color:rgba(255,255,255,0.4); font-size:0.8rem;
-    letter-spacing:.1em; text-transform:uppercase;
+    gap:8px; color:rgba(255,255,255,0.65);
+    font-size:0.82rem !important;
+    letter-spacing:0.02em !important;
+    text-transform:none !important;
+    cursor:pointer;
   }
-  .map-placeholder span { font-size:2.5rem; }
+  .map-placeholder span:first-child { font-size:1.5rem !important; text-transform:none !important; }
+  .map-placeholder span:last-child { font-size:0.82rem !important; text-transform:none !important; letter-spacing:0.02em !important; }
 
   /* ── FOOTER ── */
   footer {
@@ -1343,9 +1347,9 @@
         </div>
       </div>
 
-      <div class="map-placeholder" style="cursor:pointer;" onclick="window.open('https://maps.google.com/?q=Panti,Kushtia,Bangladesh','_blank')">
-        <span>🗺️</span>
-        <span>Panti, Kushtia, Bangladesh — Click to View on Google Maps</span>
+      <div class="map-placeholder" style="cursor:pointer;font-size:0.85rem;text-transform:none;letter-spacing:0.02em;" onclick="window.open('https://maps.google.com/?q=Panti,Kushtia,Bangladesh','_blank')">
+        <span style="font-size:1.5rem;">🗺️</span>
+        <span>Panti, Kushtia, Bangladesh — Click to view on Google Maps</span>
       </div>
     </div>
 
