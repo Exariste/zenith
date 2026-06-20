@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact Us – ZENITH Integrated Farm</title>
+<title>Livestock – ZENITH Integrated Farm</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -801,81 +801,253 @@
   <button class="nav-hamburger" id="hamburger" onclick="toggleMenu()">☰</button>
 </nav>
 <div style="padding-top:80px;">
-<!-- CONTACT -->
-<section id="contact">
-  <div class="contact-grid">
-    <div>
-      <p class="section-eyebrow">Get in Touch</p>
-      <h2 class="section-title">Contact ZENITH</h2>
-      <div class="section-divider">
-        <div class="section-divider-line"></div>
-        <div class="section-divider-dot"></div>
-      </div>
+<!-- LIVESTOCK -->
+<section id="livestock">
+  <div class="center reveal">
+    <p class="section-eyebrow">Our Animals</p>
+    <h2 class="section-title">Premium Livestock</h2>
+    <div class="section-divider">
+      <div class="section-divider-line"></div>
+      <div class="section-divider-dot"></div>
+    </div>
+  </div>
 
-      <div class="contact-info">
-        <div class="contact-item">
-          <div class="contact-icon">📍</div>
-          <div>
-            <div class="contact-item-label">Address</div>
-            <div class="contact-item-value">Panti, Kushtia, Bangladesh<br>A Brand of EXARISTE GROUP</div>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-icon">📞</div>
-          <div>
-            <div class="contact-item-label">Phone</div>
-            <div class="contact-item-value"><a href="tel:+8801713366224" style="color:inherit;text-decoration:none;">+8801713366224</a></div>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-icon">✉️</div>
-          <div>
-            <div class="contact-item-label">Email</div>
-            <div class="contact-item-value"><a href="mailto:info@exariste.com" style="color:inherit;text-decoration:none;">info@exariste.com</a></div>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-icon">🌐</div>
-          <div>
-            <div class="contact-item-label">Website</div>
-            <div class="contact-item-value">zenith.exariste.com</div>
-          </div>
+  <div class="livestock-grid">
+
+    <div class="livestock-card reveal reveal-delay-1">
+      <div class="card-image">
+        <div class="card-image-bg" style="background:linear-gradient(135deg,#1a3a1e,#2d5a32)"></div>
+        <div class="card-emoji">🐄</div>
+      </div>
+      <div class="card-body">
+        <div class="card-category">Cattle</div>
+        <h3 class="card-title">Premium Cattle</h3>
+        <p class="card-breeds">Beef Cattle · Dairy Cattle · Healthy &amp; Vaccinated</p>
+        <div class="card-tags">
+          <span class="card-tag">Meat</span>
+          <span class="card-tag">Dairy</span>
+          <span class="card-tag">Breeding</span>
         </div>
       </div>
-
-      <div class="map-placeholder" style="cursor:pointer;" onclick="window.open('https://maps.google.com/?q=Panti,Kushtia,Bangladesh','_blank')">
-        <span>🗺️</span>
-        <span>Panti, Kushtia, Bangladesh — Click to View on Google Maps</span>
+      <div class="card-hover">
+        <div class="card-hover-item"><span class="card-hover-label">Breeds</span><span class="card-hover-value">Beef &amp; Dairy</span></div>
+        <div class="card-hover-item"><span class="card-hover-label">Age Range</span><span class="card-hover-value">12–36 Months</span></div>
+        <div class="card-hover-item"><span class="card-hover-label">Weight</span><span class="card-hover-value">150–500 kg</span></div>
+        <div class="card-hover-item"><span class="card-hover-label">Availability</span><span class="card-hover-value">Available</span></div>
+        <button class="card-hover-btn" onclick="scrollToContact()">Enquire Now</button>
       </div>
     </div>
 
-    <div class="contact-form-wrap reveal">
-      <h3 class="form-title">Send an Enquiry</h3>
-      <div class="form-group">
-        <label>Your Name</label>
-        <input type="text" placeholder="Full name">
+    <div class="livestock-card reveal reveal-delay-2">
+      <div class="card-image">
+        <div class="card-image-bg" style="background:linear-gradient(135deg,#2a3a15,#4a5a22)"></div>
+        <div class="card-emoji">🐐</div>
       </div>
-      <div class="form-group">
-        <label>Phone Number</label>
-        <input type="tel" placeholder="+880 ...">
+      <div class="card-body">
+        <div class="card-category">Goat</div>
+        <h3 class="card-title">Premium Goats</h3>
+        <p class="card-breeds">Black Bengal · Jamunapari · Breeding &amp; Meat</p>
+        <div class="card-tags">
+          <span class="card-tag">Breeding</span>
+          <span class="card-tag">Meat</span>
+          <span class="card-tag">Qurbani</span>
+        </div>
       </div>
-      <div class="form-group">
-        <label>Interested In</label>
-        <select>
-          <option>Select livestock category...</option>
-          <option>Cattle</option>
-          <option>Goat</option>
-          <option>Duck</option>
-          <option>Poultry</option>
-          <option>Pigeon</option>
-          <option>Multiple / Other</option>
-        </select>
+      <div class="card-hover">
+        <div class="card-hover-item"><span class="card-hover-label">Breeds</span><span class="card-hover-value">Black Bengal · Jamunapari</span></div>
+        <div class="card-hover-item"><span class="card-hover-label">Age Range</span><span class="card-hover-value">8–24 Months</span></div>
+        <div class="card-hover-item"><span class="card-hover-label">Weight</span><span class="card-hover-value">15–45 kg</span></div>
+        <div class="card-hover-item"><span class="card-hover-label">Availability</span><span class="card-hover-value">Available</span></div>
+        <button class="card-hover-btn" onclick="scrollToContact()">Enquire Now</button>
       </div>
-      <div class="form-group">
-        <label>Message</label>
-        <textarea placeholder="Tell us what you're looking for — breed, quantity, budget..."></textarea>
+    </div>
+
+    <div class="livestock-card reveal reveal-delay-3">
+      <div class="card-image">
+        <div class="card-image-bg" style="background:linear-gradient(135deg,#0f2e3a,#1a4d5a)"></div>
+        <div class="card-emoji">🦆</div>
       </div>
-      <button class="form-submit">Send Enquiry →</button>
+      <div class="card-body">
+        <div class="card-category">Duck</div>
+        <h3 class="card-title">Organic Ducks</h3>
+        <p class="card-breeds">Organic Duck Farming · Eggs &amp; Meat</p>
+        <div class="card-tags">
+          <span class="card-tag">Organic</span>
+          <span class="card-tag">Eggs</span>
+          <span class="card-tag">Meat</span>
+        </div>
+      </div>
+      <div class="card-hover">
+        <div class="card-hover-item"><span class="card-hover-label">Type</span><span class="card-hover-value">Organic Farmed</span></div>
+        <div class="card-hover-item"><span class="card-hover-label">Age Range</span><span class="card-hover-value">4–16 Weeks</span></div>
+        <div class="card-hover-item"><span class="card-hover-label">Weight</span><span class="card-hover-value">1.5–3.5 kg</span></div>
+        <div class="card-hover-item"><span class="card-hover-label">Availability</span><span class="card-hover-value">Pre-booking</span></div>
+        <button class="card-hover-btn" onclick="scrollToContact()">Enquire Now</button>
+      </div>
+    </div>
+
+    <div class="livestock-card reveal reveal-delay-4">
+      <div class="card-image">
+        <div class="card-image-bg" style="background:linear-gradient(135deg,#3a2a10,#5a4018)"></div>
+        <div class="card-emoji">🐔</div>
+      </div>
+      <div class="card-body">
+        <div class="card-category">Poultry</div>
+        <h3 class="card-title">Premium Poultry</h3>
+        <p class="card-breeds">Broiler · Sonali · Layer · Farm-Raised</p>
+        <div class="card-tags">
+          <span class="card-tag">Broiler</span>
+          <span class="card-tag">Sonali</span>
+          <span class="card-tag">Layer</span>
+        </div>
+      </div>
+      <div class="card-hover">
+        <div class="card-hover-item"><span class="card-hover-label">Breeds</span><span class="card-hover-value">Broiler · Sonali · Layer</span></div>
+        <div class="card-hover-item"><span class="card-hover-label">Age Range</span><span class="card-hover-value">4–20 Weeks</span></div>
+        <div class="card-hover-item"><span class="card-hover-label">Weight</span><span class="card-hover-value">1–3.5 kg</span></div>
+        <div class="card-hover-item"><span class="card-hover-label">Availability</span><span class="card-hover-value">Available</span></div>
+        <button class="card-hover-btn" onclick="scrollToContact()">Enquire Now</button>
+      </div>
+    </div>
+
+    <div class="livestock-card reveal reveal-delay-1">
+      <div class="card-image">
+        <div class="card-image-bg" style="background:linear-gradient(135deg,#2a1a3a,#42285a)"></div>
+        <div class="card-emoji">🕊️</div>
+      </div>
+      <div class="card-body">
+        <div class="card-category">Pigeon</div>
+        <h3 class="card-title">Fancy Pigeons</h3>
+        <p class="card-breeds">Fancy · Breeding Pair · Young Birds</p>
+        <div class="card-tags">
+          <span class="card-tag">Fancy</span>
+          <span class="card-tag">Breeding</span>
+          <span class="card-tag">Young</span>
+        </div>
+      </div>
+      <div class="card-hover">
+        <div class="card-hover-item"><span class="card-hover-label">Types</span><span class="card-hover-value">Fancy &amp; Breeding</span></div>
+        <div class="card-hover-item"><span class="card-hover-label">Age Range</span><span class="card-hover-value">2–12 Months</span></div>
+        <div class="card-hover-item"><span class="card-hover-label">Weight</span><span class="card-hover-value">300–800 g</span></div>
+        <div class="card-hover-item"><span class="card-hover-label">Availability</span><span class="card-hover-value">Available</span></div>
+        <button class="card-hover-btn" onclick="scrollToContact()">Enquire Now</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- WHY CHOOSE -->
+<section id="why">
+  <div class="center reveal">
+    <p class="section-eyebrow">Our Promise</p>
+    <h2 class="section-title">Why Choose ZENITH?</h2>
+    <div class="section-divider">
+      <div class="section-divider-line"></div>
+      <div class="section-divider-dot"></div>
+    </div>
+  </div>
+  <div class="why-grid">
+    <div class="why-item reveal reveal-delay-1">
+      <div class="why-icon">🌿</div>
+      <h3 class="why-title">Healthy Animals</h3>
+      <p class="why-text">Every animal is raised on balanced nutrition, regular health checkups, and optimal living conditions ensuring peak health at time of sale.</p>
+    </div>
+    <div class="why-item reveal reveal-delay-2">
+      <div class="why-icon">🩺</div>
+      <h3 class="why-title">Veterinary Supervision</h3>
+      <p class="why-text">Our in-house veterinary team monitors each animal's health, administers vaccinations on schedule, and maintains comprehensive medical records.</p>
+    </div>
+    <div class="why-item reveal reveal-delay-3">
+      <div class="why-icon">🛡️</div>
+      <h3 class="why-title">Bio-secure Environment</h3>
+      <p class="why-text">State-of-the-art biosecurity protocols protect our animals from disease. Controlled entry, proper sanitation, and quarantine procedures are strictly followed.</p>
+    </div>
+    <div class="why-item reveal reveal-delay-1">
+      <div class="why-icon">❤️</div>
+      <h3 class="why-title">Ethical Farming</h3>
+      <p class="why-text">We believe animals deserve respect. Our farm practices align with international animal welfare standards — no overcrowding, no cruelty.</p>
+    </div>
+    <div class="why-item reveal reveal-delay-2">
+      <div class="why-icon">♻️</div>
+      <h3 class="why-title">Sustainable Practices</h3>
+      <p class="why-text">From organic feed to waste composting, our entire operation is designed to minimize environmental impact and support long-term ecological health.</p>
+    </div>
+    <div class="why-item reveal reveal-delay-3">
+      <div class="why-icon">⭐</div>
+      <h3 class="why-title">Trusted Seller</h3>
+      <p class="why-text">100+ satisfied customers across Bangladesh trust ZENITH for consistent quality, transparent pricing, and reliable delivery.</p>
+    </div>
+  </div>
+</section>
+
+<!-- LIVE INVENTORY -->
+<section id="inventory">
+  <div class="center reveal">
+    <p class="section-eyebrow">Live Updates</p>
+    <h2 class="section-title">Current Inventory</h2>
+    <div class="section-divider">
+      <div class="section-divider-line"></div>
+      <div class="section-divider-dot"></div>
+    </div>
+  </div>
+
+  <div class="inventory-table reveal">
+    <div class="inventory-header">
+      <span>Animal</span>
+      <span>Weight</span>
+      <span>Age</span>
+      <span>Price</span>
+      <span>Status</span>
+    </div>
+
+    <div class="inventory-row">
+      <div class="inv-name">Black Bengal Goat</div>
+      <div class="inv-meta">28 kg</div>
+      <div class="inv-meta">14 months</div>
+      <div class="inv-price">Contact Us</div>
+      <div><span class="status-badge status-available"><span class="status-dot"></span>Available</span></div>
+    </div>
+    <div class="inventory-row">
+      <div class="inv-name">Beef Cattle (Bull)</div>
+      <div class="inv-meta">320 kg</div>
+      <div class="inv-meta">28 months</div>
+      <div class="inv-price">Contact Us</div>
+      <div><span class="status-badge status-available"><span class="status-dot"></span>Available</span></div>
+    </div>
+    <div class="inventory-row">
+      <div class="inv-name">Jamunapari Goat (Pair)</div>
+      <div class="inv-meta">18 kg</div>
+      <div class="inv-meta">10 months</div>
+      <div class="inv-price">Contact Us</div>
+      <div><span class="status-badge status-prebooking"><span class="status-dot"></span>Pre-booking</span></div>
+    </div>
+    <div class="inventory-row">
+      <div class="inv-name">Sonali Chicken (Batch)</div>
+      <div class="inv-meta">2.1 kg</div>
+      <div class="inv-meta">10 weeks</div>
+      <div class="inv-price">Contact Us</div>
+      <div><span class="status-badge status-available"><span class="status-dot"></span>Available</span></div>
+    </div>
+    <div class="inventory-row">
+      <div class="inv-name">Fancy Pigeon (Breeding Pair)</div>
+      <div class="inv-meta">450 g</div>
+      <div class="inv-meta">6 months</div>
+      <div class="inv-price">Contact Us</div>
+      <div><span class="status-badge status-available"><span class="status-dot"></span>Available</span></div>
+    </div>
+    <div class="inventory-row">
+      <div class="inv-name">Organic Duck (Batch of 20)</div>
+      <div class="inv-meta">2.8 kg</div>
+      <div class="inv-meta">12 weeks</div>
+      <div class="inv-price">Contact Us</div>
+      <div><span class="status-badge status-soldout"><span class="status-dot"></span>Sold Out</span></div>
+    </div>
+    <div class="inventory-row">
+      <div class="inv-name">Dairy Cattle (Cow)</div>
+      <div class="inv-meta">280 kg</div>
+      <div class="inv-meta">36 months</div>
+      <div class="inv-price">Contact Us</div>
+      <div><span class="status-badge status-prebooking"><span class="status-dot"></span>Pre-booking</span></div>
     </div>
   </div>
 </section>
